@@ -1,0 +1,16 @@
+.square-wrapper{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 238, 190);
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square-wrapper .goti-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+}

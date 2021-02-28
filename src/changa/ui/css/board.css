@@ -1,0 +1,8 @@
+.board-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.board-wrapper .board-row{
+    display: flex;
+    flex-direction: row;
+}
